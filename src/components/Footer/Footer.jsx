@@ -14,7 +14,7 @@ const Footer = () => {
         </S.Language>
 
         <List
-          items={["Sobre", "Termos de serviço", "Política de privacidade"]}
+          items={["sobre", "termos de serviço", "política de privacidade"]}
         />
       </S.Container>
     </S.Footer>

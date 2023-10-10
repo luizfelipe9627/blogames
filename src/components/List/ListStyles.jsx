@@ -25,7 +25,6 @@ export const ListText = styled.ul`
 
   a {
     font-size: 18px;
-    text-transform: uppercase;
     color: #100f0f;
 
     &:hover {

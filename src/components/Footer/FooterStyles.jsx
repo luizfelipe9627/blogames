@@ -35,6 +35,10 @@ export const Container = styled.div`
   li {
     font-size: 18px;
 
+    &::first-letter {
+      text-transform: uppercase;
+    }
+
     &:hover {
       cursor: pointer;
       text-decoration: underline;

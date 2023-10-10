@@ -21,6 +21,7 @@ export const ContainerBottom = styled.div`
   justify-content: space-around;
   padding: 40px 0 56px 0;
   border-top: 1px solid #e2e2e2;
+  text-transform: uppercase;
 
   @media (max-width: 1023px) {
     display: none;

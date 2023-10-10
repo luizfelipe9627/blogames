@@ -6,14 +6,14 @@ export const Image = styled.div`
   overflow: hidden; // Impede que a imagem ultrapasse o tamanho do container.
 
   img {
-    max-width: 100vw;
     object-fit: cover;
     transition: transform 0.3s ease-in-out;
   }
 
   @media (max-width: 1023px) {
     img {
-      max-height: 300px;
+      max-height: 200px;
+      min-height: 300px;
     }
   }
 `;
@@ -40,9 +40,7 @@ export const Content = styled.div`
 
 export const Card = styled.div`
   position: relative;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+
   cursor: pointer;
 
   &:hover {
