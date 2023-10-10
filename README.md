@@ -16,7 +16,7 @@ O intuito da criação desse projeto foi para práticar o Styled componenets uti
 
 ## 🎨 Layout
 
-### Créditos do layout para o <a href="https://www.figma.com/file/Yb9IBH56g7T1hdIyZ3BMNO/Desafios---Codel%C3%A2ndia?type=design&node-id=210567-3773&mode=design&t=KyRRbJ8ZTKwxhr38-4">Iuri Silva</a>.
+### Acesse o desafio <a href="https://www.figma.com/file/Yb9IBH56g7T1hdIyZ3BMNO/Desafios---Codel%C3%A2ndia?type=design&node-id=210567-3773&mode=design&t=KyRRbJ8ZTKwxhr38-4">aqui</a>.
 
 ## 💻 Tecnologias utilizadas
 
