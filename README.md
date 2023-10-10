@@ -20,8 +20,12 @@ O intuito da criação desse projeto foi para práticar o Styled componenets uti
 
 ## 💻 Tecnologias utilizadas
 
-- `REACT.JS`
+- `HTML5`
 - `STYLED COMPONENTS`
+- `JAVASCRIPT`
+- `REACT.JS`
+- `ESLINT`
+- `VITE.JS`
 
 ## 🧑‍💻 Criador
 
