@@ -1,30 +1,30 @@
 import React from "react";
-import { List } from "./NavStyles";
+import * as S from "./ListStyles";
 
-const Nav = ({ items, img, texts, ...props }) => {
+const List = ({ items, img, texts, ...props }) => {
   return (
-    <nav>
+    <>
       {img ? (
-        <List style={{ ...props }}>
-          {img.map((item, index) => (
+        <S.ListIcon style={{ ...props }}>
+          {items.map((item, index) => (
             <li key={index} style={{ ...props }}>
               <a href={`#${item}`}>
                 <img src={img[index]} alt={item} />
               </a>
             </li>
           ))}
-        </List>
+        </S.ListIcon>
       ) : (
-        <ul style={{ ...props }}>
+        <S.ListText style={{ ...props }}>
           {items.map((text, index) => (
             <li key={index} style={{ ...props }}>
               <a href={`#${text}`}>{text}</a>
             </li>
           ))}
-        </ul>
+        </S.ListText>
       )}
-    </nav>
+    </>
   );
 };
 
-export default Nav;
+export default List;

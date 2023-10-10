@@ -1,7 +1,6 @@
-import { ContainerHeaderTop, ContainerHeaderBottom } from "./HeaderStyles";
-import Nav from "../Nav/Nav";
+import * as S from "./HeaderStyles";
+import List from "../List/List";
 import Logo from "../Logo/Logo";
-
 import facebook from "../../assets/svg/facebook.svg";
 import twitter from "../../assets/svg/twitter.svg";
 import twitch from "../../assets/svg/twitch.svg";
@@ -14,23 +13,43 @@ const Header = () => {
   return (
     <>
       <header>
-        <ContainerHeaderTop>
-          <Nav
-            items={["facebook", "twitter", "twitch", "discord"]}
-            img={[facebook, twitter, twitch, discord]}
-          />
+        <S.ContainerTop>
+          <nav>
+            <List
+              items={["facebook", "twitter", "twitch", "discord"]}
+              img={[facebook, twitter, twitch, discord]}
+            />
 
-          <Logo />
+            <Logo />
 
-          <Nav items={["user", "search", "menu"]} img={[user, search, menu]} />
-        </ContainerHeaderTop>
+            <List
+              items={["user", "search", "menu"]}
+              img={[user, search, menu]}
+            />
+          </nav>
+        </S.ContainerTop>
 
-        <ContainerHeaderBottom>
-          <Nav
+        <S.ContainerMobile>
+          <nav>
+            <List
+              items={["user"]}
+              img={[user]}
+            />
+
+            <Logo />
+
+            <List
+              items={["menu"]}
+              img={[menu]}
+            />
+          </nav>
+        </S.ContainerMobile>
+
+        <S.ContainerBottom>
+          <List
             items={["inicio", "categorias", "sobre", "contato"]}
-            gap="48px"
           />
-        </ContainerHeaderBottom>
+        </S.ContainerBottom>
       </header>
     </>
   );

@@ -1,7 +1,7 @@
-import { ContainerOverlay } from "./OverlayStyled";
+import * as S from "./OverlayStyled";
 
-const Overlay = ({ children }) => {
-  return <ContainerOverlay/>;
+const Overlay = () => {
+  return <S.Overlay />;
 };
 
 export default Overlay;

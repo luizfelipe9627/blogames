@@ -1,23 +1,23 @@
 import arrow from "../../assets/svg/arrow.svg";
-import { ContainerFooter, ContainerLanguage, FooterTag } from "./FooterStyles";
-import Nav from "../Nav/Nav";
+import * as S from "./FooterStyles";
+import List from "../List/List";
 
 const Footer = () => {
   return (
-    <FooterTag>
-      <ContainerFooter>
-        <ContainerLanguage>
+    <S.Footer>
+      <S.Container>
+        <S.Language>
           <a href="#language">
             <p>PT-BR</p>
             <img src={arrow} alt="Arrow icon" />
           </a>
-        </ContainerLanguage>
+        </S.Language>
 
-        <Nav
+        <List
           items={["Sobre", "Termos de serviço", "Política de privacidade"]}
         />
-      </ContainerFooter>
-    </FooterTag>
+      </S.Container>
+    </S.Footer>
   );
 };
 

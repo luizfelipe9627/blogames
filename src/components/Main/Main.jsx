@@ -1,10 +1,10 @@
-import { MainTag } from "./MainStyles";
+import * as S from './MainStyles';
 
 const Main = ({ children }) => {
   return (
-    <MainTag>
+    <S.Main>
       {children}
-    </MainTag>
+    </S.Main>
   );
 };
 

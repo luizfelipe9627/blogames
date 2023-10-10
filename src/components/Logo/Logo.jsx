@@ -1,10 +1,10 @@
-import { ContainerLogo } from "./LogoStyles";
+import * as S from "./LogoStyles";
 
 const Logo = () => {
   return (
-    <ContainerLogo>
+    <S.Logo>
       <a href="#">Blogames</a>
-    </ContainerLogo>
+    </S.Logo>
   );
 };
 

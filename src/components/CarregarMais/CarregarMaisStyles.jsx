@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const ContainerCarregarMais = styled.div`
+export const CarregarMais = styled.div`
   a {
     display: flex;
     justify-content: center;

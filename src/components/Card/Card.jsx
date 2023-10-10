@@ -1,19 +1,21 @@
-import { ContainerCard, CardImage, CardContent } from "./CardStyles";
+import * as S from "./CardStyles";
 import Overlay from "../Overlay/Overlay";
 
-const Card = ({ img, data, title }) => {
+const Card = ({ href, img, data, title }) => {
   return (
-    <ContainerCard>
-      <Overlay />
-      <CardImage>
-        <img src={img} alt="Xbox" />
-      </CardImage>
+    <S.Card>
+      <a href={`#${href}`}>
+        <Overlay />
+        <S.Image>
+          <img src={img} alt="Xbox" />
+        </S.Image>
 
-      <CardContent>
-        <span>{data}</span>
-        <h1>{title}</h1>
-      </CardContent>
-    </ContainerCard>
+        <S.Content>
+          <span>{data}</span>
+          <h1>{title}</h1>
+        </S.Content>
+      </a>
+    </S.Card>
   );
 };
 
