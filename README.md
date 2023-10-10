@@ -22,7 +22,7 @@ O intuito da criação desse projeto foi para práticar o Styled componenets uti
 
 - `HTML5`
 - `STYLED COMPONENTS`
-- `JAVASCRIPT`
+- `JAVASCRIPT ES6`
 - `REACT.JS`
 - `ESLINT`
 - `VITE.JS`
