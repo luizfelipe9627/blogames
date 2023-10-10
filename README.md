@@ -12,7 +12,7 @@ O blogames é um blog de notícias sobre jogos.
 
 O intuito da criação desse projeto foi para práticar o Styled componenets utilizando React.
 
-### <a href="https://luizfelipe9627-steam-redesign.netlify.app">Acesse o site</a>
+### <a href="https://luizfelipe9627-blogames.netlify.app">Acesse o site</a>
 
 ## 🎨 Layout
 
